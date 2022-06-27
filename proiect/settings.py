@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'aplicatie1','aplicatie2','user_profile',
     'aplicatie3',
+    'rest_framework',
+    'myapi',
 ]
 
 MIDDLEWARE = [
@@ -127,3 +129,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL='/locations/'
 LOGOUT_REDIRECT_URL='/'
+APPEND_SLASH=False
